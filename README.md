@@ -19,8 +19,8 @@ Donghua API tersedia di: **[https://www.sankavollerei.com/anime](https://www.san
 ### Clone Repository
 
 ```sh
-git clone https://github.com/SankaVollereii/sankadonghub.git
-cd sankadonghub
+git clone https://github.com/SankaVollereii/donghuaku.git
+cd donghuaku
 ```
 
 ### Install Dependencies

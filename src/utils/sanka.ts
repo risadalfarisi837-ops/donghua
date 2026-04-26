@@ -12,7 +12,7 @@ interface Payload<T> {
 
 const config = (animeConfig as any).default || animeConfig;
 const {
-  sankadonghubApi: { apiUrl, baseUrlPath },
+  donghuakuApi: { apiUrl, baseUrlPath },
 } = config;
 
 export default async function sanka<T>(pathname: string): Promise<Payload<T>> {

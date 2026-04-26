@@ -1,5 +1,5 @@
 interface animeConfig {
-  sankadonghub: {
+  donghuaku: {
     siteName: string;
     description: string;
     logo: string;
@@ -7,22 +7,22 @@ interface animeConfig {
     image: string;
   };
 
-  sankadonghubApi: {
+  donghuakuApi: {
     apiUrl: string;
     baseUrlPath: string;
   };
 }
 
 const animeConfig: animeConfig = {
-  sankadonghub: {
-    siteName: "sankadonghub",
+  donghuaku: {
+    siteName: "donghuaku",
     description: "Nonton donghua gratis ga pake karcis hanya di Sankadonghub",
     logo: "/images/logo.png",
     favicon: "/favicon.png",
-    image: "/images/sankadonghub.jpg",
+    image: "/images/donghuaku.jpg",
   },
 
-  sankadonghubApi: {
+  donghuakuApi: {
     apiUrl: "https://www.sankavollerei.com",
     baseUrlPath: "/anime/donghua",
   },

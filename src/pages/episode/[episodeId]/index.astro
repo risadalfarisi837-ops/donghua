@@ -16,7 +16,7 @@ import genreService from "@services/genreService";
 
 const config = (animeConfig as any).default || animeConfig;
 const {
-  sankadonghub: { siteName },
+  donghuaku: { siteName },
 } = config;
 
 const { episodeId } = Astro.params;
@@ -99,7 +99,7 @@ const title = ok ? `Nonton Anime ${data.title} - ${siteName}` : `Error - ${siteN
       href: Astro.url.pathname,
       episodeLabel: data.title 
     }}>
-      const historyKey = "sankadonghub_history";
+      const historyKey = "donghuaku_history";
       try {
         const currentHistory = JSON.parse(localStorage.getItem(historyKey) || "[]");
         const newEntry = {
